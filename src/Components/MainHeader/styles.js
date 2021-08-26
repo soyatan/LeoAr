@@ -15,12 +15,12 @@ export default styles = StyleSheet.create({
     alignItems: 'center',
   },
   blackheadertext: {
-    fontSize: Fonts.Sizes.sixteen,
+    fontSize: Fonts.Sizes.eighteen,
     color: Colors.Black,
     fontWeight: '700',
   },
   shadysmalltext: {
-    fontSize: Fonts.Sizes.twelve,
+    fontSize: Fonts.Sizes.fourteen,
     color: Colors.Black,
     opacity: 0.4,
     fontWeight: '700',
