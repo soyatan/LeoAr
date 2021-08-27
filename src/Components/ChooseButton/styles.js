@@ -7,12 +7,9 @@ const {Families, Sizes} = Fonts;
 
 export default styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-
-    marginVertical: w * 0.01,
+    backgroundColor: Colors.Gray,
     paddingVertical: w * 0.02,
     paddingHorizontal: w * 0.03,
-    width: '100%',
-    alignItems: 'center',
+    borderRadius: w * 0.05,
   },
 });

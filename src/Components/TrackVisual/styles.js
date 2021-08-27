@@ -6,13 +6,18 @@ import Fonts from '../../constants/Fonts';
 const {Families, Sizes} = Fonts;
 
 export default styles = StyleSheet.create({
+  outercontainer: {borderColor: '#0a0a0a20', borderWidth: 1, borderRadius: 12},
   container: {
-    flexDirection: 'row',
-
-    marginVertical: w * 0.01,
-    paddingVertical: w * 0.02,
-    paddingHorizontal: w * 0.03,
+    width: w * 0.14,
+    height: w * 0.14,
+    borderWidth: 4,
+    borderColor: '#ffffff50',
+    borderRadius: 12,
+  },
+  image: {
     width: '100%',
-    alignItems: 'center',
+    height: '100%',
+    backgroundColor: 'red',
+    borderRadius: 8,
   },
 });
