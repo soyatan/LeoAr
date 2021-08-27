@@ -8,16 +8,16 @@ const {Families, Sizes} = Fonts;
 export default styles = StyleSheet.create({
   container: {
     height: h * 0.1,
-    backgroundColor: Colors.Gray,
-    opacity: 0.5,
-    paddingLeft: w * 0.03,
+    backgroundColor: Colors.LightGray,
+
+    //paddingLeft: w * 0.03,
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'stretch',
   },
   blackheadertext: {
     fontSize: Fonts.Sizes.eighteen,
     color: Colors.Black,
-    fontWeight: '700',
+    fontWeight: '600',
   },
   shadyheadertext: {
     fontSize: Fonts.Sizes.eighteen,
@@ -25,4 +25,5 @@ export default styles = StyleSheet.create({
     opacity: 0.4,
     fontWeight: '700',
   },
+  genreitem: {justifyContent: 'center', paddingHorizontal: w * 0.03},
 });

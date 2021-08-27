@@ -1,4 +1,4 @@
-export const trackdata = [
+export const trackData = [
   {
     id: 1,
     trackname: 'Deck the Halls',

@@ -1,17 +1,26 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, FlatList, Text} from 'react-native';
 import ChooseButton from '../ChooseButton/ChooseButton';
 import TrackInfo from '../TrackInfo/TrackInfo';
 import TrackVisual from '../TrackVisual/TrackVisual';
 import styles from './styles';
 
-const TracksContainer = () => {
+const TracksContainer = ({tracks}) => {
+  console.log(tracks);
   return (
-    <View style={styles.container}>
-      <TrackVisual />
-      <TrackInfo />
-      <ChooseButton />
-    </View>
+    <FlatList
+      data={tracks}
+      showsVerticalScrollIndicator={false}
+      renderItem={({item}) => {
+        return (
+          <View style={styles.container}>
+            <TrackVisual source={item.imagename} />
+            <TrackInfo track={item} />
+            <ChooseButton />
+          </View>
+        );
+      }}
+    />
   );
 };
 

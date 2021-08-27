@@ -6,5 +6,5 @@ import Fonts from '../../constants/Fonts';
 const {Families, Sizes} = Fonts;
 
 export default styles = StyleSheet.create({
-  container: {},
+  container: {flex: 1},
 });
