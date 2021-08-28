@@ -22,7 +22,7 @@ const CategoryHeader = ({genres, chosenGenre, setChosenGenre}) => {
                   styles.blackheadertext,
                   item !== chosenGenre ? {opacity: 0.3} : null,
                 ]}>
-                {item}
+                {item.charAt(0).toUpperCase() + item.slice(1)}
               </Text>
             </TouchableOpacity>
           );

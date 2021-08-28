@@ -6,7 +6,6 @@ import TrackVisual from '../TrackVisual/TrackVisual';
 import styles from './styles';
 
 const TracksContainer = ({tracks}) => {
-  console.log(tracks);
   return (
     <FlatList
       data={tracks}
@@ -14,7 +13,7 @@ const TracksContainer = ({tracks}) => {
       renderItem={({item}) => {
         return (
           <View style={styles.container}>
-            <TrackVisual source={item.imagename} />
+            <TrackVisual source={item.thumbUrl} />
             <TrackInfo track={item} />
             <ChooseButton />
           </View>

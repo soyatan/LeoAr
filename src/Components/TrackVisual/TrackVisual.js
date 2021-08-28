@@ -12,7 +12,7 @@ const TrackVisual = ({source}) => {
         <Image
           width={'100%'}
           height={'100%'}
-          source={ImageLink[source]}
+          source={{uri: source}}
           style={styles.image}
           resizeMode={'cover'}
         />
