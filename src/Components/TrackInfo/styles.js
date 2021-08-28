@@ -7,16 +7,18 @@ import {width} from './../../constants/Metrics';
 const {Families, Sizes} = Fonts;
 
 export default styles = StyleSheet.create({
-  container: {marginLeft: w * 0.035, width: w * 0.55},
+  container: {marginLeft: w * 0.035, width: w * 0.55, paddingRight: w * 0.15},
   blacktext: {
-    fontSize: Fonts.Sizes.fourteen,
+    fontSize: Fonts.Sizes.twelve,
     color: Colors.Black,
     fontWeight: '700',
+    fontFamily: Families.semibold,
   },
   shadytext: {
-    fontSize: Fonts.Sizes.twelve,
+    fontSize: Fonts.Sizes.ten,
     color: Colors.Black,
     opacity: 0.4,
     fontWeight: '400',
+    fontFamily: Families.regular,
   },
 });

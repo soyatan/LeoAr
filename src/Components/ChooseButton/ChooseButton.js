@@ -5,7 +5,7 @@ import styles from './styles';
 const ChooseButton = () => {
   return (
     <TouchableOpacity style={styles.container}>
-      <Text>Choose</Text>
+      <Text style={styles.blacktext}>Choose</Text>
     </TouchableOpacity>
   );
 };

@@ -18,6 +18,7 @@ export default styles = StyleSheet.create({
     fontSize: Fonts.Sizes.eighteen,
     color: Colors.Black,
     fontWeight: '600',
+    fontFamily: Families.medium,
   },
   shadyheadertext: {
     fontSize: Fonts.Sizes.eighteen,

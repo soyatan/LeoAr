@@ -18,11 +18,13 @@ export default styles = StyleSheet.create({
     fontSize: Fonts.Sizes.eighteen,
     color: Colors.Black,
     fontWeight: '700',
+    fontFamily: Families.bold,
   },
   shadysmalltext: {
     fontSize: Fonts.Sizes.fourteen,
     color: Colors.Black,
     opacity: 0.4,
     fontWeight: '700',
+    fontFamily: Families.medium,
   },
 });
